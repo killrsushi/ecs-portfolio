@@ -2,11 +2,12 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 margin: 0 auto;
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 }
-.homePage {
+.homePage {#394E55
 background: #222222;
 }
-.container {
+.container {#30BFBE
 width: 960px;
 margin: 0 auto;
 }
@@ -19,7 +20,7 @@ float: left;
 width: 100%;
 height: 80px;
 }
-.nav {
+.nav {#AA397C
 background: #BBBBBB;
 margin: 0px;
 padding: 5;
@@ -28,7 +29,7 @@ width: 100%;
 height: 60px;
 text-align: center;
 }
-.content {
+.content {#395544
 background: #EEEEEE;
 margin: 0px;
 float: left;
@@ -36,11 +37,20 @@ width: 100%;
 
 text-align: center;
 }
-.footer {
+.footer {#FF2600
 background: #777777;
 margin: 0px;
 float: left;
 width: 100%;
 height: 50px;
 text-align: center;
+}
+a:link {#0002FF
+     color: #000000;
+}
+a:visited {#9F38FF
+     color: #000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
